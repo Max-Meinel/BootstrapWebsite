@@ -1,0 +1,137 @@
+#avatar img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+
+#avatar img {
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: 5%;
+}  
+
+#button-home {
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 767px) {
+  #avatar img{
+    margin-right: auto;
+    margin-top: 10%;
+  }
+
+  #knowledge-img {
+    display: none;
+  }
+
+  #welcome {
+    margin-top: 10%;
+  }
+
+  #cd-bot-img {
+    margin-top: 5%;
+  }
+
+  #sudoku-video {
+    margin-bottom: 3%;
+  }
+
+  #snake-video {
+    margin-bottom: 3%;
+  }
+}
+
+#education {
+  margin-top: 2%;
+}
+
+#education-section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#discord-bot img {
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+#discord-bot img:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+
+#snake-game video {
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+#snake-game video:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+
+#sudoku video {
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+#sudoku video:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+
+#linked-in-icon {
+  margin-right: 1.5%;
+  margin-top: 2.5%;
+}
+
+#email-icon {
+  margin-right: 1.5%;
+}
+
+#kontact-icons a:link {
+  color: rgb(248, 249, 250);
+}
+
+#kontact-icons a:visited {
+  color: rgb(248, 249, 250);
+}
+
+#qualifications div {
+  color: rgb(33, 37, 41);
+}
+
+#qualifications h3 {
+  color: rgb(248, 249, 250);
+}
+
+#languages {
+  margin-top: 2%;
+}
+
+#hobbies {
+  margin-top: 2%;
+}
